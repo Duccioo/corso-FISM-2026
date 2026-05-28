@@ -1,0 +1,74 @@
+name: Build and publish CV
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex
+
+      - name: Build HTML and PDF
+        run: |
+          mkdir -p public
+          pandoc cv.md -s -o public/index.html --css style.css --metadata title="CV"
+          pandoc cv.md -s -o public/cv.pdf --pdf-engine=xelatex
+          cp style.css public/style.css
+
+      - name: Add download page
+        run: |
+          cat > public/download.html <<'EOF'
+          <!DOCTYPE html>
+          <html lang="it">
+          <head>
+            <meta charset="UTF-8">
+            <title>Download CV</title>
+            <link rel="stylesheet" href="style.css">
+          </head>
+          <body>
+            <h1>Download CV</h1>
+            <p><a href="cv.pdf">Scarica il CV in PDF</a></p>
+            <p><a href="index.html">Torna alla versione HTML</a></p>
+          </body>
+          </html>
+          EOF
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    needs: build
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
