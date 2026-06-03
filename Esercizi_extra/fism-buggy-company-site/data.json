@@ -1,0 +1,12 @@
+[
+  {
+    "nome": "Pacchetto Base",
+    "categoria": "web",
+    "descrizione": "Landing page statica semplice",
+  },
+  {
+    "nome": "Pacchetto Pro",
+    "categoria": "web",
+    "descrizione": "Sito statico con Bootstrap"
+  }
+]

@@ -1,0 +1,80 @@
+<html>
+<head>
+  <title>FISM Company Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top">
+    <h1>FISM Company Site</h1>
+    <h3>Un sito aziendale dimostrativo pieno di errori da sistemare</h3>
+    <a class="btn-primary" href="#prodotti">Guarda i prodotti</a>
+  </div>
+
+  <nav class="navBar">
+    <a href="#servizi">Servizi</a>
+    <a href="#prodotti">Prodotti</a>
+    <a href="#faq">FAQ</a>
+    <a href="docs/guida-utente.md">Guida utente</a>
+    <a href="https://github.com/utente/repo-sbagliata">GitHub</a>
+  </nav>
+
+  <main class="container">
+    <section id="service">
+      <h2>I nostri servizi</h2>
+      <p>Offriamo consulenza, formazione e siti web statici.</p>
+      <img src="assets/immagini/hero.png">
+    </section>
+
+    <section id="prodotti">
+      <h2>Prodotti</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="assets/immagini/Product1.jpg" alt="">
+          <h2>Pacchetto Base</h2>
+          <p>Una landing page semplice.</p>
+          <a class="button" href="docs/guida.md">Dettagli</a>
+        </div>
+        <div class="card">
+          <img src="assets/immagini/product-2.png">
+          <h2>Pacchetto Pro</h2>
+          <p>Una pagina con Bootstrap e componenti pronti.</p>
+          <a class="button" href="docs/installazione.html">Dettagli</a>
+        </div>
+        <div class="card">
+          <h2>Pacchetto Data</h2>
+          <p>Dati caricati da JSON.</p>
+          <a class="button" href="#data">Mostra dati</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="dati">
+      <h2>Dati da JSON</h2>
+      <p>Questa sezione dovrebbe mostrare dati caricati da un file JSON.</p>
+      <div id="prodotti-lista"></div>
+    </section>
+
+    <section id="faq-section">
+      <h2>FAQ</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+              Il sito funziona online?
+            </button>
+          </h2>
+          <div id="faqUno" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Dovrebbe funzionare con GitHub Pages.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>FISM 2026 - sito demo</p>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>

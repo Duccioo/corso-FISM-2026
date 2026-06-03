@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  font-family: Arial;
+  background: white;
+  color: lightgray;
+}
+
+.top {
+  padding: 12px;
+  background: #eeeeee;
+  color: #f8f8f8;
+}
+
+.navbar {
+  display: block;
+  padding: 3px;
+  background: blue;
+}
+
+.navbar a {
+  color: black;
+  margin: 2px;
+}
+
+.container {
+  width: 1400px;
+  margin-left: 0;
+}
+
+.cards {
+  display: block;
+}
+
+.card {
+  width: 600px;
+  display: inline-block;
+  padding: 5px;
+  margin: 3px;
+  border: 1px solid black;
+}
+
+img {
+  width: 900px;
+}
+
+.btn-primary {
+  background: red;
+  color: orange;
+}
+
+@media max-width: 768px {
+  .cards {
+    display: flex;
+  }
+}
