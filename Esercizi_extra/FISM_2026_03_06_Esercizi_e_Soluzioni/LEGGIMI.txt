@@ -1,0 +1,14 @@
+FISM 2026 - Lezione 03/06/2026
+
+Contenuto dello ZIP:
+- FISM_2026_03_06_Esercizi.pdf: tracce degli esercizi, senza soluzioni.
+- FISM_2026_03_06_Soluzioni.pdf: soluzioni ed esempi di correzione.
+
+Gli esercizi coprono:
+1. repository e consegna;
+2. tema, HTML e contenuto;
+3. CSS intermedio;
+4. Bootstrap ragionato;
+5. GitHub Pages;
+6. JSON/API opzionale;
+7. sprint finale.

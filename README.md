@@ -2,6 +2,11 @@
 
 slide e codici per lezioni FISM 2026.
 
+## Link Utili
+
+- [Drive del corso](https://drive.google.com/drive/folders/1035vK5eOAVAjIegmE_hsiayY2PiihPfP?usp=drive_link)
+
+
 ## Struttura
 
 la cartella **Lezioni** contiene le varie lezioni effettuate:
