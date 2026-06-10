@@ -21,3 +21,8 @@ la cartella **Lezioni** contiene le varie lezioni effettuate:
 - [HTML MDN DOCS](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [HTML w3schools DOCS](https://www.w3schools.com/html/default.asp)
 - [BOOTSTRAP DOCS](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+
+
+## Contatti
+
+Email: meconcelliduccio@gmail.com
