@@ -2,11 +2,9 @@
 
 slide e codici per lezioni FISM 2026.
 
-
 ## Link Utili
 
 - [Drive del corso](https://drive.google.com/drive/folders/1035vK5eOAVAjIegmE_hsiayY2PiihPfP?usp=drive_link)
-
 
 ## Argomenti
 
@@ -22,6 +20,7 @@ Parte pratica con creazione di repository GitHub complete, con README, LICENSE e
 ## Struttura
 
 la cartella **Lezioni** contiene le varie lezioni effettuate:
+
 - **Terminale** (07/05/2026)
 - **Git_e_GitHub** (14/05/2026)
 - **Markdown_StrutturaProgetto** (25/05/2026)
@@ -33,7 +32,6 @@ la cartella **Lezioni** contiene le varie lezioni effettuate:
 - [HTML MDN DOCS](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [HTML w3schools DOCS](https://www.w3schools.com/html/default.asp)
 - [BOOTSTRAP DOCS](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-
 
 ## Contatti
 
