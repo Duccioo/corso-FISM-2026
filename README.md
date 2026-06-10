@@ -2,10 +2,22 @@
 
 slide e codici per lezioni FISM 2026.
 
+
 ## Link Utili
 
 - [Drive del corso](https://drive.google.com/drive/folders/1035vK5eOAVAjIegmE_hsiayY2PiihPfP?usp=drive_link)
 
+
+## Argomenti
+
+Trattati gli strumenti e le metodologie per redigere, organizzare, versionare e pubblicare documentazione tecnica e manualistica di progetto.
+
+In particolare sono stati affrontati: uso operativo del terminale e gestione di file/cartelle; organizzazione della struttura di un progetto; utilizzo di Git e GitHub per versionamento; introduzione alle licenze software e distinzione tra licenza proprietaria; scrittura di documentazione in Markdown; realizzazione di README efficaci; uso di titoli, liste, link, immagini, tabelle, blocchi di codice, checklist.
+
+Sono state inoltre trattate le principali tipologie di documentazione: guida utente, quick start, installazione, FAQ, troubleshooting, documentazione tecnica, architettura. 
+Particolare attenzione è stata data al principio “Docs as Code”, cioè alla gestione della documentazione come parte integrante della repository, versionata e revisionata insieme al codice.
+
+Parte pratica con creazione di repository GitHub complete, con README, LICENSE e documentazione collegata. Sono stati introdotti anche HTML, CSS, Bootstrap, GitHub Pages (e brevemente JavaScript, JSON e API) come strumenti per trasformare la documentazione in un piccolo sito web pubblicabile online. Sono state svolte esercitazioni pratiche su scrittura, revisione, correzione e pubblicazione della documentazione, con attenzione a struttura, percorsi dei file, link funzionanti, troubleshooting e collaborazione tramite issue e pull request.
 
 ## Struttura
 
