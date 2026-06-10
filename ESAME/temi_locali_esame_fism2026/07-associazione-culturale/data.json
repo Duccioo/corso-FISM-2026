@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Associazione culturale",
+    "dataSource": "data.json locale",
+    "description": "Realizzare un sito per un'associazione culturale con eventi, attività, destinatari e informazioni pratiche.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Evento"
+      },
+      {
+        "key": "category",
+        "label": "Tipo"
+      },
+      {
+        "key": "fields.data",
+        "label": "Data"
+      },
+      {
+        "key": "fields.luogo",
+        "label": "Luogo"
+      },
+      {
+        "key": "fields.pubblico",
+        "label": "Pubblico"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Letture al parco",
+      "subtitle": "Circolo Parole",
+      "category": "Lettura",
+      "description": "Incontro di lettura condivisa con brani scelti dai partecipanti.",
+      "fields": {
+        "data": "12/06/2026",
+        "luogo": "Parco Centrale",
+        "pubblico": "Tutti",
+        "costo": "Gratuito"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Laboratorio di fumetto",
+      "subtitle": "Matita Blu",
+      "category": "Workshop",
+      "description": "Laboratorio base per creare una breve storia a fumetti.",
+      "fields": {
+        "data": "18/06/2026",
+        "luogo": "Biblioteca",
+        "pubblico": "14+",
+        "costo": "5 €"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Cinema sotto le stelle",
+      "subtitle": "Associazione Lumi",
+      "category": "Proiezione",
+      "description": "Proiezione serale di cortometraggi indipendenti.",
+      "fields": {
+        "data": "25/06/2026",
+        "luogo": "Piazza Vecchia",
+        "pubblico": "Tutti",
+        "costo": "Gratuito"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Passeggiata storica",
+      "subtitle": "Guide Locali",
+      "category": "Visita",
+      "description": "Itinerario guidato tra edifici e racconti della città.",
+      "fields": {
+        "data": "02/07/2026",
+        "luogo": "Centro storico",
+        "pubblico": "Tutti",
+        "costo": "3 €"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Musica in cortile",
+      "subtitle": "Note Aperte",
+      "category": "Concerto",
+      "description": "Concerto acustico di giovani musicisti locali.",
+      "fields": {
+        "data": "09/07/2026",
+        "luogo": "Cortile civico",
+        "pubblico": "Tutti",
+        "costo": "Offerta libera"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Scrittura creativa",
+      "subtitle": "Penna Viva",
+      "category": "Workshop",
+      "description": "Esercizi pratici per scrivere racconti brevi.",
+      "fields": {
+        "data": "16/07/2026",
+        "luogo": "Sala incontri",
+        "pubblico": "16+",
+        "costo": "8 €"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Mostra fotografica",
+      "subtitle": "Scatti Urbani",
+      "category": "Mostra",
+      "description": "Esposizione fotografica dedicata ai quartieri della città.",
+      "fields": {
+        "data": "23/07/2026",
+        "luogo": "Galleria civica",
+        "pubblico": "Tutti",
+        "costo": "Gratuito"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Serata giochi da tavolo",
+      "subtitle": "Dadi e Carte",
+      "category": "Incontro",
+      "description": "Serata libera con giochi collaborativi e strategici.",
+      "fields": {
+        "data": "30/07/2026",
+        "luogo": "Sede associazione",
+        "pubblico": "12+",
+        "costo": "Gratuito"
+      }
+    }
+  ]
+}

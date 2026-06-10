@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruota assegnazione esame FISM 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <section class="hero">
+            <div>
+                <p class="eyebrow">Esame FISM 2026</p>
+                <h1>Ruota della fortuna dei compiti</h1>
+                <p class="subtitle">Inserisci gli studenti, fai girare la ruota e assegna casualmente uno dei 40 compiti: 20 locali e 20 con API remote.</p>
+            </div>
+            <div class="stats" aria-label="Statistiche assegnazioni">
+                <div><strong id="assignedCount">0</strong><span>assegnati</span></div>
+                <div><strong id="remainingCount">40</strong><span>rimanenti</span></div>
+            </div>
+        </section>
+
+        <section class="layout">
+            <aside class="panel controls">
+                <h2>Studenti</h2>
+                <label for="studentName">Nome studente</label>
+                <div class="inline-form">
+                    <input id="studentName" type="text" placeholder="Es. Mario Rossi" autocomplete="off">
+                    <button id="spinButton" type="button">Gira</button>
+                </div>
+
+                <label for="studentList">Oppure incolla la lista studenti</label>
+                <textarea id="studentList" rows="8" placeholder="Uno studente per riga"></textarea>
+                <div class="actions-grid">
+                    <button id="loadStudentsButton" type="button" class="secondary">Carica lista</button>
+                    <button id="nextStudentButton" type="button" class="secondary">Prossimo</button>
+                </div>
+
+                <div class="queue-box">
+                    <h3>Studenti in attesa</h3>
+                    <ol id="studentQueue"></ol>
+                </div>
+
+                <div class="actions-grid">
+                    <button id="saveFileButton" type="button" class="secondary">Salva su file</button>
+                    <button id="downloadButton" type="button" class="secondary">Scarica JSON</button>
+                    <label class="file-button" for="importFile">Importa JSON</label>
+                    <input id="importFile" type="file" accept="application/json">
+                    <button id="resetButton" type="button" class="danger">Reset</button>
+                </div>
+            </aside>
+
+            <section class="wheel-section">
+                <div class="wheel-card">
+                    <div class="pointer" aria-hidden="true"></div>
+                    <canvas id="wheel" width="620" height="620" aria-label="Ruota dei compiti"></canvas>
+                    <div class="wheel-center">
+                        <span>GIRA</span>
+                    </div>
+                </div>
+                <div id="result" class="result" aria-live="polite">
+                    <span class="small">Pronto per l'estrazione</span>
+                    <strong>Inserisci uno studente e premi Gira</strong>
+                </div>
+            </section>
+
+            <aside class="panel assignments-panel">
+                <h2>Assegnazioni salvate</h2>
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Studente</th>
+                                <th>Compito</th>
+                                <th>Tipo</th>
+                            </tr>
+                        </thead>
+                        <tbody id="assignmentsTable"></tbody>
+                    </table>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

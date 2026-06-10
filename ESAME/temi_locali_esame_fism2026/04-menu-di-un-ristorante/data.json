@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "projectTitle": "Menu di un ristorante",
+    "dataSource": "data.json locale",
+    "description": "Realizzare il sito multipagina di un ristorante fittizio con menu, categorie, prezzi e allergeni.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Piatto"
+      },
+      {
+        "key": "category",
+        "label": "Categoria"
+      },
+      {
+        "key": "fields.prezzo",
+        "label": "Prezzo"
+      },
+      {
+        "key": "fields.allergeni",
+        "label": "Allergeni"
+      },
+      {
+        "key": "fields.disponibilita",
+        "label": "Disponibilità"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Bruschette dell'orto",
+      "subtitle": "Antipasto vegetariano",
+      "category": "Antipasti",
+      "description": "Pane croccante con pomodoro, basilico e olio locale.",
+      "fields": {
+        "prezzo": "6.00 €",
+        "allergeni": "Glutine",
+        "disponibilita": "Sempre"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Tagliatelle al ragù bianco",
+      "subtitle": "Pasta fresca",
+      "category": "Primi",
+      "description": "Pasta fatta in casa con ragù bianco e rosmarino.",
+      "fields": {
+        "prezzo": "12.00 €",
+        "allergeni": "Glutine, uova",
+        "disponibilita": "Pranzo e cena"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Risotto al limone",
+      "subtitle": "Piatto delicato",
+      "category": "Primi",
+      "description": "Risotto cremoso con scorza di limone e timo.",
+      "fields": {
+        "prezzo": "11.00 €",
+        "allergeni": "Latte",
+        "disponibilita": "Cena"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Pollo alle erbe",
+      "subtitle": "Secondo piatto",
+      "category": "Secondi",
+      "description": "Pollo marinato con erbe aromatiche e verdure al forno.",
+      "fields": {
+        "prezzo": "14.00 €",
+        "allergeni": "Nessuno dichiarato",
+        "disponibilita": "Sempre"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Burger vegetale",
+      "subtitle": "Alternativa vegetariana",
+      "category": "Secondi",
+      "description": "Burger di legumi con salsa yogurt e insalata.",
+      "fields": {
+        "prezzo": "13.00 €",
+        "allergeni": "Glutine, latte",
+        "disponibilita": "Sempre"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Insalata mediterranea",
+      "subtitle": "Piatto fresco",
+      "category": "Contorni",
+      "description": "Insalata con olive, feta, pomodori e cetrioli.",
+      "fields": {
+        "prezzo": "8.00 €",
+        "allergeni": "Latte",
+        "disponibilita": "Estate"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Torta della casa",
+      "subtitle": "Dolce del giorno",
+      "category": "Dolci",
+      "description": "Torta soffice con crema e frutta di stagione.",
+      "fields": {
+        "prezzo": "5.00 €",
+        "allergeni": "Glutine, uova, latte",
+        "disponibilita": "Variabile"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Acqua aromatizzata",
+      "subtitle": "Bevanda analcolica",
+      "category": "Bevande",
+      "description": "Acqua con agrumi, menta e frutti rossi.",
+      "fields": {
+        "prezzo": "3.50 €",
+        "allergeni": "Nessuno",
+        "disponibilita": "Sempre"
+      }
+    }
+  ]
+}

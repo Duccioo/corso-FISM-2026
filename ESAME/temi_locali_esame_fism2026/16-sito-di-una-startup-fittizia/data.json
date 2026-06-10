@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Sito di una startup fittizia",
+    "dataSource": "data.json locale",
+    "description": "Realizzare il sito di una startup immaginaria con prodotto, funzionalità, piani e team.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Elemento"
+      },
+      {
+        "key": "category",
+        "label": "Categoria"
+      },
+      {
+        "key": "fields.stato",
+        "label": "Stato"
+      },
+      {
+        "key": "fields.priorita",
+        "label": "Priorità"
+      },
+      {
+        "key": "fields.target",
+        "label": "Target"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Dashboard intelligente",
+      "subtitle": "Funzionalità core",
+      "category": "Prodotto",
+      "description": "Pannello per visualizzare dati e metriche in modo semplice.",
+      "fields": {
+        "stato": "Pronto",
+        "priorita": "Alta",
+        "target": "Piccole aziende",
+        "tipo": "Feature"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Notifiche automatiche",
+      "subtitle": "Avvisi",
+      "category": "Prodotto",
+      "description": "Sistema di avvisi quando un valore supera una soglia.",
+      "fields": {
+        "stato": "Beta",
+        "priorita": "Media",
+        "target": "Team operativi",
+        "tipo": "Feature"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Piano Starter",
+      "subtitle": "Offerta base",
+      "category": "Prezzi",
+      "description": "Piano per iniziare con funzionalità essenziali.",
+      "fields": {
+        "stato": "Attivo",
+        "priorita": "Alta",
+        "target": "Freelance",
+        "tipo": "Piano"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Piano Team",
+      "subtitle": "Offerta intermedia",
+      "category": "Prezzi",
+      "description": "Piano per piccoli gruppi con collaborazione.",
+      "fields": {
+        "stato": "Attivo",
+        "priorita": "Alta",
+        "target": "Team",
+        "tipo": "Piano"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Integrazione CSV",
+      "subtitle": "Import dati",
+      "category": "Tecnologia",
+      "description": "Importazione dati da file CSV locali.",
+      "fields": {
+        "stato": "In sviluppo",
+        "priorita": "Media",
+        "target": "Utenti tecnici",
+        "tipo": "Feature"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Design system",
+      "subtitle": "UI",
+      "category": "Tecnologia",
+      "description": "Libreria di componenti per coerenza grafica.",
+      "fields": {
+        "stato": "Pronto",
+        "priorita": "Media",
+        "target": "Sviluppatori",
+        "tipo": "Interno"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Supporto email",
+      "subtitle": "Servizio",
+      "category": "Assistenza",
+      "description": "Canale di supporto per richieste e problemi.",
+      "fields": {
+        "stato": "Attivo",
+        "priorita": "Bassa",
+        "target": "Clienti",
+        "tipo": "Servizio"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Report PDF",
+      "subtitle": "Esportazione",
+      "category": "Prodotto",
+      "description": "Generazione di report scaricabili in formato PDF.",
+      "fields": {
+        "stato": "Roadmap",
+        "priorita": "Media",
+        "target": "Manager",
+        "tipo": "Feature"
+      }
+    }
+  ]
+}

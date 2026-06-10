@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "projectTitle": "Guida pratica a Git",
+    "dataSource": "data.json locale",
+    "description": "Realizzare una guida multipagina sui comandi e sui flussi base di Git e GitHub.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Comando"
+      },
+      {
+        "key": "category",
+        "label": "Categoria"
+      },
+      {
+        "key": "fields.sintassi",
+        "label": "Sintassi"
+      },
+      {
+        "key": "fields.quando_usarlo",
+        "label": "Quando usarlo"
+      },
+      {
+        "key": "fields.errore_comune",
+        "label": "Errore comune"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "git init",
+      "subtitle": "Inizializzazione",
+      "category": "Setup",
+      "description": "Crea una nuova repository Git locale.",
+      "fields": {
+        "sintassi": "git init",
+        "quando_usarlo": "All'inizio di un progetto",
+        "errore_comune": "Usarlo dentro una repo già esistente",
+        "rischio": "Medio"
+      }
+    },
+    {
+      "id": 2,
+      "title": "git status",
+      "subtitle": "Controllo stato",
+      "category": "Controllo",
+      "description": "Mostra file modificati, staged e non tracciati.",
+      "fields": {
+        "sintassi": "git status",
+        "quando_usarlo": "Prima di ogni commit",
+        "errore_comune": "Ignorare file non tracciati",
+        "rischio": "Basso"
+      }
+    },
+    {
+      "id": 3,
+      "title": "git add",
+      "subtitle": "Staging",
+      "category": "Salvataggio",
+      "description": "Aggiunge file all'area di staging.",
+      "fields": {
+        "sintassi": "git add .",
+        "quando_usarlo": "Prima del commit",
+        "errore_comune": "Aggiungere file inutili",
+        "rischio": "Medio"
+      }
+    },
+    {
+      "id": 4,
+      "title": "git commit",
+      "subtitle": "Commit",
+      "category": "Salvataggio",
+      "description": "Registra una versione del progetto.",
+      "fields": {
+        "sintassi": "git commit -m \"messaggio\"",
+        "quando_usarlo": "Dopo una modifica sensata",
+        "errore_comune": "Messaggio vago",
+        "rischio": "Basso"
+      }
+    },
+    {
+      "id": 5,
+      "title": "git log",
+      "subtitle": "Storico",
+      "category": "Controllo",
+      "description": "Mostra la cronologia dei commit.",
+      "fields": {
+        "sintassi": "git log --oneline",
+        "quando_usarlo": "Per controllare la storia",
+        "errore_comune": "Non sapere uscire dal pager",
+        "rischio": "Basso"
+      }
+    },
+    {
+      "id": 6,
+      "title": "git branch",
+      "subtitle": "Branch",
+      "category": "Collaborazione",
+      "description": "Mostra o crea rami di sviluppo.",
+      "fields": {
+        "sintassi": "git branch nome",
+        "quando_usarlo": "Per lavorare separatamente",
+        "errore_comune": "Lavorare sempre su main",
+        "rischio": "Medio"
+      }
+    },
+    {
+      "id": 7,
+      "title": "git checkout",
+      "subtitle": "Cambio branch",
+      "category": "Collaborazione",
+      "description": "Permette di spostarsi tra branch.",
+      "fields": {
+        "sintassi": "git checkout nome-branch",
+        "quando_usarlo": "Prima di lavorare su un ramo",
+        "errore_comune": "Modifiche non salvate",
+        "rischio": "Medio"
+      }
+    },
+    {
+      "id": 8,
+      "title": "git pull",
+      "subtitle": "Aggiornamento",
+      "category": "Remoto",
+      "description": "Scarica modifiche dalla repository remota.",
+      "fields": {
+        "sintassi": "git pull",
+        "quando_usarlo": "Prima di iniziare a lavorare",
+        "errore_comune": "Dimenticarlo prima delle modifiche",
+        "rischio": "Medio"
+      }
+    },
+    {
+      "id": 9,
+      "title": "git push",
+      "subtitle": "Pubblicazione",
+      "category": "Remoto",
+      "description": "Invia commit alla repository remota.",
+      "fields": {
+        "sintassi": "git push",
+        "quando_usarlo": "Dopo un commit",
+        "errore_comune": "Dimenticare upstream",
+        "rischio": "Medio"
+      }
+    },
+    {
+      "id": 10,
+      "title": "git clone",
+      "subtitle": "Copia repository",
+      "category": "Setup",
+      "description": "Scarica una repository esistente.",
+      "fields": {
+        "sintassi": "git clone URL",
+        "quando_usarlo": "Quando si parte da GitHub",
+        "errore_comune": "Clonare nella cartella sbagliata",
+        "rischio": "Basso"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "source": "fallback locale",
+  "note": "Questi dati vengono usati solo se la API remota non risponde.",
+  "items": [
+    {
+      "title": "bulbasaur",
+      "body": "Altezza: 7. Peso: 69. Tipi: grass, poison.",
+      "meta": "#1",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"
+    },
+    {
+      "title": "charmander",
+      "body": "Altezza: 6. Peso: 85. Tipi: fire.",
+      "meta": "#4",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+    }
+  ]
+}

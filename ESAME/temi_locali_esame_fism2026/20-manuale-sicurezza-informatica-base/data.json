@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Manuale sicurezza informatica base",
+    "dataSource": "data.json locale",
+    "description": "Realizzare un manuale web introduttivo sulla sicurezza informatica con rischi, consigli e checklist.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Argomento"
+      },
+      {
+        "key": "category",
+        "label": "Categoria"
+      },
+      {
+        "key": "fields.rischio",
+        "label": "Rischio"
+      },
+      {
+        "key": "fields.consiglio",
+        "label": "Consiglio"
+      },
+      {
+        "key": "fields.utente_target",
+        "label": "Target"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Password deboli",
+      "subtitle": "Scheda informativa",
+      "category": "Accessi",
+      "description": "Uso di password semplici o riutilizzate su più servizi.",
+      "fields": {
+        "rischio": "Alto",
+        "consiglio": "Usare password manager",
+        "utente_target": "Tutti",
+        "controllo": "Password unica"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Phishing",
+      "subtitle": "Scheda informativa",
+      "category": "Email",
+      "description": "Messaggi ingannevoli che cercano di ottenere dati personali.",
+      "fields": {
+        "rischio": "Alto",
+        "consiglio": "Controllare mittente e link",
+        "utente_target": "Tutti",
+        "controllo": "Non cliccare link sospetti"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Aggiornamenti mancanti",
+      "subtitle": "Scheda informativa",
+      "category": "Sistema",
+      "description": "Software vecchio con vulnerabilità note.",
+      "fields": {
+        "rischio": "Medio",
+        "consiglio": "Aggiornare regolarmente",
+        "utente_target": "Utenti PC",
+        "controllo": "Update attivi"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Wi-Fi pubblico",
+      "subtitle": "Scheda informativa",
+      "category": "Rete",
+      "description": "Connessioni non sicure in luoghi pubblici.",
+      "fields": {
+        "rischio": "Medio",
+        "consiglio": "Evitare dati sensibili",
+        "utente_target": "Mobile",
+        "controllo": "Usare rete affidabile"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Backup assenti",
+      "subtitle": "Scheda informativa",
+      "category": "Dati",
+      "description": "Perdita di file importanti senza copie di sicurezza.",
+      "fields": {
+        "rischio": "Alto",
+        "consiglio": "Fare backup periodici",
+        "utente_target": "Studenti e lavoro",
+        "controllo": "Backup mensile"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Download casuali",
+      "subtitle": "Scheda informativa",
+      "category": "Software",
+      "description": "Installazione di programmi da fonti non affidabili.",
+      "fields": {
+        "rischio": "Medio",
+        "consiglio": "Usare fonti ufficiali",
+        "utente_target": "Tutti",
+        "controllo": "Verificare sito"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Condivisione eccessiva",
+      "subtitle": "Scheda informativa",
+      "category": "Privacy",
+      "description": "Pubblicare informazioni personali senza controllo.",
+      "fields": {
+        "rischio": "Medio",
+        "consiglio": "Limitare dati pubblici",
+        "utente_target": "Social media",
+        "controllo": "Privacy settings"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Dispositivi sbloccati",
+      "subtitle": "Scheda informativa",
+      "category": "Accesso fisico",
+      "description": "Lasciare computer o telefono accessibili ad altri.",
+      "fields": {
+        "rischio": "Medio",
+        "consiglio": "Bloccare lo schermo",
+        "utente_target": "Scuola/lavoro",
+        "controllo": "PIN o password"
+      }
+    }
+  ]
+}

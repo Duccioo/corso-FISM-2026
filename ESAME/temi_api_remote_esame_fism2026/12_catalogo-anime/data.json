@@ -1,0 +1,12 @@
+{
+  "source": "fallback locale",
+  "note": "Questi dati vengono usati solo se la API remota non risponde.",
+  "items": [
+    {
+      "title": "Naruto",
+      "body": "Anime ninja di formazione. Punteggio: 8.0.",
+      "meta": "TV",
+      "image": "https://cdn.myanimelist.net/images/anime/13/17405.jpg"
+    }
+  ]
+}

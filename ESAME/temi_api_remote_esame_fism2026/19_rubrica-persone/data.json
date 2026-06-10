@@ -1,0 +1,12 @@
+{
+  "source": "fallback locale",
+  "note": "Questi dati vengono usati solo se la API remota non risponde.",
+  "items": [
+    {
+      "title": "Mario Rossi",
+      "body": "Email: mario.rossi@example.com. Città: Firenze. Paese: Italia.",
+      "meta": "IT",
+      "image": "https://randomuser.me/api/portraits/men/1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Biblioteca personale",
+    "dataSource": "data.json locale",
+    "description": "Realizzare un sito multipagina per presentare una piccola biblioteca personale con libri consigliati, generi e informazioni di lettura.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Titolo"
+      },
+      {
+        "key": "subtitle",
+        "label": "Autore"
+      },
+      {
+        "key": "category",
+        "label": "Genere"
+      },
+      {
+        "key": "fields.anno",
+        "label": "Anno"
+      },
+      {
+        "key": "fields.voto",
+        "label": "Voto"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Il giardino delle macchine",
+      "subtitle": "Lina Ferri",
+      "category": "Fantascienza",
+      "description": "Romanzo breve su una città gestita da automi e giardini artificiali.",
+      "fields": {
+        "anno": "2021",
+        "pagine": "248",
+        "voto": "4/5",
+        "formato": "Cartaceo"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Manuale delle piccole rivoluzioni",
+      "subtitle": "Andrea Neri",
+      "category": "Saggio",
+      "description": "Raccolta di idee pratiche per cambiare abitudini quotidiane.",
+      "fields": {
+        "anno": "2019",
+        "pagine": "180",
+        "voto": "3.5/5",
+        "formato": "PDF"
+      }
+    },
+    {
+      "id": 3,
+      "title": "La mappa del faro",
+      "subtitle": "Marta Leone",
+      "category": "Avventura",
+      "description": "Storia di viaggio ambientata su un'isola con un vecchio faro abbandonato.",
+      "fields": {
+        "anno": "2020",
+        "pagine": "310",
+        "voto": "4.5/5",
+        "formato": "Cartaceo"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Caffè per due algoritmi",
+      "subtitle": "Paolo Riva",
+      "category": "Tecnologia",
+      "description": "Racconti ironici su intelligenza artificiale, lavoro e vita quotidiana.",
+      "fields": {
+        "anno": "2024",
+        "pagine": "220",
+        "voto": "4/5",
+        "formato": "Ebook"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Atlante delle città invisibili",
+      "subtitle": "Sara Conti",
+      "category": "Fantasy",
+      "description": "Atlante narrativo di città immaginarie e culture inventate.",
+      "fields": {
+        "anno": "2018",
+        "pagine": "360",
+        "voto": "5/5",
+        "formato": "Cartaceo"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Storie dal laboratorio",
+      "subtitle": "Nicolò Galli",
+      "category": "Divulgazione",
+      "description": "Esperimenti scientifici spiegati con esempi semplici.",
+      "fields": {
+        "anno": "2022",
+        "pagine": "190",
+        "voto": "3/5",
+        "formato": "Ebook"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Nebbia sulla stazione",
+      "subtitle": "Elena Mori",
+      "category": "Giallo",
+      "description": "Indagine su una sparizione avvenuta durante un viaggio in treno.",
+      "fields": {
+        "anno": "2017",
+        "pagine": "275",
+        "voto": "4/5",
+        "formato": "Cartaceo"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Piccolo lessico del web",
+      "subtitle": "Duccio Bianchi",
+      "category": "Manuale",
+      "description": "Introduzione ai termini più comuni del web e dello sviluppo frontend.",
+      "fields": {
+        "anno": "2026",
+        "pagine": "96",
+        "voto": "4/5",
+        "formato": "PDF"
+      }
+    }
+  ]
+}

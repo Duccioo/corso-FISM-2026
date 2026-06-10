@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Portfolio fotografo",
+    "dataSource": "data.json locale",
+    "description": "Realizzare un sito portfolio per un fotografo fittizio, con servizi, progetti e categorie fotografiche.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Progetto/servizio"
+      },
+      {
+        "key": "category",
+        "label": "Categoria"
+      },
+      {
+        "key": "fields.anno",
+        "label": "Anno"
+      },
+      {
+        "key": "fields.luogo",
+        "label": "Luogo"
+      },
+      {
+        "key": "fields.formato",
+        "label": "Formato"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Ritratti urbani",
+      "subtitle": "Serie fotografica",
+      "category": "Ritratto",
+      "description": "Ritratti ambientati in strade e piazze cittadine.",
+      "fields": {
+        "anno": "2024",
+        "luogo": "Firenze",
+        "formato": "Digitale",
+        "consegna": "Gallery online"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Luce di bottega",
+      "subtitle": "Reportage",
+      "category": "Reportage",
+      "description": "Racconto visivo di artigiani al lavoro nei loro spazi.",
+      "fields": {
+        "anno": "2023",
+        "luogo": "Siena",
+        "formato": "Digitale + stampa",
+        "consegna": "Album"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Matrimonio civile",
+      "subtitle": "Servizio evento",
+      "category": "Eventi",
+      "description": "Servizio fotografico completo per cerimonia e ricevimento.",
+      "fields": {
+        "anno": "2025",
+        "luogo": "Arezzo",
+        "formato": "Digitale",
+        "consegna": "USB + cloud"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Catalogo prodotti",
+      "subtitle": "Set commerciale",
+      "category": "Commerciale",
+      "description": "Foto prodotto per piccolo e-commerce artigianale.",
+      "fields": {
+        "anno": "2024",
+        "luogo": "Studio",
+        "formato": "Digitale",
+        "consegna": "File ottimizzati"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Paesaggi minimi",
+      "subtitle": "Serie personale",
+      "category": "Paesaggio",
+      "description": "Paesaggi essenziali con composizioni pulite.",
+      "fields": {
+        "anno": "2022",
+        "luogo": "Toscana",
+        "formato": "Stampa",
+        "consegna": "Fine art"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Backstage teatro",
+      "subtitle": "Reportage",
+      "category": "Eventi",
+      "description": "Foto dietro le quinte durante prove teatrali.",
+      "fields": {
+        "anno": "2023",
+        "luogo": "Teatro comunale",
+        "formato": "Digitale",
+        "consegna": "Gallery"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Food shooting",
+      "subtitle": "Servizio ristorante",
+      "category": "Food",
+      "description": "Scatti per menu, social e sito web di un ristorante.",
+      "fields": {
+        "anno": "2025",
+        "luogo": "Studio/locale",
+        "formato": "Digitale",
+        "consegna": "File web"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Bianco e nero",
+      "subtitle": "Serie artistica",
+      "category": "Artistico",
+      "description": "Serie in bianco e nero su contrasti e geometrie.",
+      "fields": {
+        "anno": "2021",
+        "luogo": "Varie città",
+        "formato": "Stampa",
+        "consegna": "Mostra"
+      }
+    }
+  ]
+}

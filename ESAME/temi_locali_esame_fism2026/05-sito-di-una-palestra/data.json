@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Sito di una palestra",
+    "dataSource": "data.json locale",
+    "description": "Realizzare il sito di una palestra con corsi, istruttori, orari e livelli di difficoltà.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Corso"
+      },
+      {
+        "key": "subtitle",
+        "label": "Istruttore"
+      },
+      {
+        "key": "category",
+        "label": "Area"
+      },
+      {
+        "key": "fields.giorno",
+        "label": "Giorno"
+      },
+      {
+        "key": "fields.orario",
+        "label": "Orario"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Functional Training",
+      "subtitle": "Laura Bassi",
+      "category": "Forza",
+      "description": "Allenamento completo con esercizi a corpo libero e piccoli attrezzi.",
+      "fields": {
+        "giorno": "Lunedì",
+        "orario": "18:00",
+        "livello": "Medio",
+        "durata": "50 min"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Yoga Flow",
+      "subtitle": "Mina Ricci",
+      "category": "Mobilità",
+      "description": "Sequenza fluida per migliorare respirazione, postura e flessibilità.",
+      "fields": {
+        "giorno": "Martedì",
+        "orario": "19:00",
+        "livello": "Base",
+        "durata": "60 min"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Cardio Start",
+      "subtitle": "Marco Gori",
+      "category": "Cardio",
+      "description": "Lezione dinamica per migliorare resistenza e coordinazione.",
+      "fields": {
+        "giorno": "Mercoledì",
+        "orario": "17:30",
+        "livello": "Base",
+        "durata": "45 min"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Boxe Fit",
+      "subtitle": "Dario Fontana",
+      "category": "Cardio",
+      "description": "Allenamento ispirato alla boxe con focus su tecnica e fiato.",
+      "fields": {
+        "giorno": "Giovedì",
+        "orario": "20:00",
+        "livello": "Medio",
+        "durata": "50 min"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Pilates Base",
+      "subtitle": "Sara Gentili",
+      "category": "Mobilità",
+      "description": "Esercizi controllati per postura, core e stabilità.",
+      "fields": {
+        "giorno": "Venerdì",
+        "orario": "18:30",
+        "livello": "Base",
+        "durata": "55 min"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Power Circuit",
+      "subtitle": "Nico Ferri",
+      "category": "Forza",
+      "description": "Circuito intenso a stazioni per forza e resistenza.",
+      "fields": {
+        "giorno": "Sabato",
+        "orario": "10:00",
+        "livello": "Avanzato",
+        "durata": "45 min"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Stretching Relax",
+      "subtitle": "Elena Sarti",
+      "category": "Benessere",
+      "description": "Sessione leggera di allungamento e recupero.",
+      "fields": {
+        "giorno": "Domenica",
+        "orario": "11:00",
+        "livello": "Base",
+        "durata": "40 min"
+      }
+    },
+    {
+      "id": 8,
+      "title": "HIIT Express",
+      "subtitle": "Andrea Poli",
+      "category": "Cardio",
+      "description": "Allenamento breve ad alta intensità.",
+      "fields": {
+        "giorno": "Lunedì",
+        "orario": "13:00",
+        "livello": "Avanzato",
+        "durata": "30 min"
+      }
+    }
+  ]
+}

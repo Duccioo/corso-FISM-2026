@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Collezione videogiochi",
+    "dataSource": "data.json locale",
+    "description": "Realizzare un catalogo multipagina per una collezione di videogiochi, con piattaforme, generi e difficoltà.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Gioco"
+      },
+      {
+        "key": "category",
+        "label": "Genere"
+      },
+      {
+        "key": "fields.piattaforma",
+        "label": "Piattaforma"
+      },
+      {
+        "key": "fields.difficolta",
+        "label": "Difficoltà"
+      },
+      {
+        "key": "fields.voto",
+        "label": "Voto"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Nebula Runner",
+      "subtitle": "Studio Horizon",
+      "category": "Azione",
+      "description": "Runner fantascientifico con livelli veloci e ostacoli dinamici.",
+      "fields": {
+        "piattaforma": "PC",
+        "difficolta": "Media",
+        "voto": "8/10",
+        "modalita": "Single player"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Farm Pixel Valley",
+      "subtitle": "GreenCode",
+      "category": "Gestionale",
+      "description": "Simulatore di fattoria con raccolti, animali e mercato locale.",
+      "fields": {
+        "piattaforma": "Switch",
+        "difficolta": "Facile",
+        "voto": "7/10",
+        "modalita": "Single player"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Dungeon Byte",
+      "subtitle": "Night Forge",
+      "category": "RPG",
+      "description": "Esplorazione di dungeon generati proceduralmente.",
+      "fields": {
+        "piattaforma": "PC",
+        "difficolta": "Alta",
+        "voto": "8.5/10",
+        "modalita": "Co-op"
+      }
+    },
+    {
+      "id": 4,
+      "title": "City Builder Mini",
+      "subtitle": "UrbanSoft",
+      "category": "Strategia",
+      "description": "Costruzione e gestione di una piccola città sostenibile.",
+      "fields": {
+        "piattaforma": "Browser",
+        "difficolta": "Media",
+        "voto": "7.5/10",
+        "modalita": "Single player"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Kart della Domenica",
+      "subtitle": "Arcade Lab",
+      "category": "Racing",
+      "description": "Gare leggere e circuiti colorati per partite rapide.",
+      "fields": {
+        "piattaforma": "PlayStation",
+        "difficolta": "Facile",
+        "voto": "6.5/10",
+        "modalita": "Multiplayer"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Shadow Terminal",
+      "subtitle": "Kernel Games",
+      "category": "Puzzle",
+      "description": "Puzzle game ambientato in un terminale informatico misterioso.",
+      "fields": {
+        "piattaforma": "PC",
+        "difficolta": "Alta",
+        "voto": "9/10",
+        "modalita": "Single player"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Sky Islands",
+      "subtitle": "CloudFrame",
+      "category": "Avventura",
+      "description": "Esplorazione di isole sospese e raccolta risorse.",
+      "fields": {
+        "piattaforma": "Xbox",
+        "difficolta": "Media",
+        "voto": "8/10",
+        "modalita": "Single player"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Robo Arena",
+      "subtitle": "MechaFun",
+      "category": "Azione",
+      "description": "Arena battle con robot personalizzabili.",
+      "fields": {
+        "piattaforma": "PC",
+        "difficolta": "Media",
+        "voto": "7/10",
+        "modalita": "Multiplayer"
+      }
+    }
+  ]
+}

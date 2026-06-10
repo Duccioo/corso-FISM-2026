@@ -1,0 +1,12 @@
+{
+  "source": "fallback locale",
+  "note": "Questi dati vengono usati solo se la API remota non risponde.",
+  "items": [
+    {
+      "title": "Pasta al pomodoro",
+      "body": "Categoria: Pasta. Area: Italian. Ingredienti principali: pasta, tomato, basil.",
+      "meta": "Italian",
+      "image": "https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "source": "fallback locale",
+  "note": "Questi dati vengono usati solo se la API remota non risponde.",
+  "items": [
+    {
+      "title": "charmander",
+      "body": "Pokémon di tipo fuoco. Altezza: 6. Peso: 85.",
+      "meta": "#4",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png"
+    },
+    {
+      "title": "vulpix",
+      "body": "Pokémon di tipo fuoco. Altezza: 6. Peso: 99.",
+      "meta": "#37",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/37.png"
+    }
+  ]
+}

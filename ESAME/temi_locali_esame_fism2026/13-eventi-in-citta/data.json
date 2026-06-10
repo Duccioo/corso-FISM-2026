@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Eventi in città",
+    "dataSource": "data.json locale",
+    "description": "Realizzare un sito calendario per eventi cittadini, con date, luoghi, categorie e pubblico consigliato.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Evento"
+      },
+      {
+        "key": "category",
+        "label": "Categoria"
+      },
+      {
+        "key": "fields.data",
+        "label": "Data"
+      },
+      {
+        "key": "fields.luogo",
+        "label": "Luogo"
+      },
+      {
+        "key": "fields.prezzo",
+        "label": "Prezzo"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Mercato artigiano",
+      "subtitle": "Comune",
+      "category": "Mercato",
+      "description": "Banchi di artigiani locali e prodotti fatti a mano.",
+      "fields": {
+        "data": "10/06/2026",
+        "luogo": "Piazza Grande",
+        "prezzo": "Gratis",
+        "orario": "09:00-18:00"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Concerto jazz",
+      "subtitle": "Blue Note Lab",
+      "category": "Musica",
+      "description": "Concerto serale con quartetto jazz locale.",
+      "fields": {
+        "data": "12/06/2026",
+        "luogo": "Teatro piccolo",
+        "prezzo": "12 €",
+        "orario": "21:00"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Laboratorio bambini",
+      "subtitle": "Biblioteca",
+      "category": "Famiglie",
+      "description": "Attività creativa per bambini con letture e disegni.",
+      "fields": {
+        "data": "14/06/2026",
+        "luogo": "Biblioteca",
+        "prezzo": "Gratis",
+        "orario": "16:30"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Passeggiata botanica",
+      "subtitle": "Guide verdi",
+      "category": "Natura",
+      "description": "Visita guidata tra alberi e piante del parco.",
+      "fields": {
+        "data": "16/06/2026",
+        "luogo": "Parco Nord",
+        "prezzo": "5 €",
+        "orario": "10:00"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Street food night",
+      "subtitle": "Pro Loco",
+      "category": "Food",
+      "description": "Serata dedicata a cibo di strada e musica.",
+      "fields": {
+        "data": "18/06/2026",
+        "luogo": "Viale Centrale",
+        "prezzo": "Ingresso libero",
+        "orario": "19:00"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Mostra giovani artisti",
+      "subtitle": "Galleria civica",
+      "category": "Arte",
+      "description": "Esposizione collettiva di artisti emergenti.",
+      "fields": {
+        "data": "20/06/2026",
+        "luogo": "Galleria civica",
+        "prezzo": "4 €",
+        "orario": "10:00-19:00"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Corsa cittadina",
+      "subtitle": "Sport Club",
+      "category": "Sport",
+      "description": "Corsa non competitiva aperta a tutti.",
+      "fields": {
+        "data": "22/06/2026",
+        "luogo": "Stadio comunale",
+        "prezzo": "8 €",
+        "orario": "08:30"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Serata astronomia",
+      "subtitle": "Osservatorio",
+      "category": "Scienza",
+      "description": "Osservazione del cielo con telescopi e guida.",
+      "fields": {
+        "data": "24/06/2026",
+        "luogo": "Collina est",
+        "prezzo": "6 €",
+        "orario": "22:00"
+      }
+    }
+  ]
+}

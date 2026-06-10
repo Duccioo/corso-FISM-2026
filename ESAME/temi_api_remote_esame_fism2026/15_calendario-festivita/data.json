@@ -1,0 +1,11 @@
+{
+  "source": "fallback locale",
+  "note": "Questi dati vengono usati solo se la API remota non risponde.",
+  "items": [
+    {
+      "title": "Capodanno",
+      "body": "Nome internazionale: New Year's Day. Data: 2026-01-01. Paese: IT.",
+      "meta": "nazionale"
+    }
+  ]
+}

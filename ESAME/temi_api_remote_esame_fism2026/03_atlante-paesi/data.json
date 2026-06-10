@@ -1,0 +1,18 @@
+{
+  "source": "fallback locale",
+  "note": "Questi dati vengono usati solo se la API remota non risponde.",
+  "items": [
+    {
+      "title": "Italia",
+      "body": "Capitale: Roma. Regione: Europe. Popolazione: 58.000.000.",
+      "meta": "Europe",
+      "image": "https://flagcdn.com/w320/it.png"
+    },
+    {
+      "title": "Francia",
+      "body": "Capitale: Parigi. Regione: Europe. Popolazione: 67.000.000.",
+      "meta": "Europe",
+      "image": "https://flagcdn.com/w320/fr.png"
+    }
+  ]
+}

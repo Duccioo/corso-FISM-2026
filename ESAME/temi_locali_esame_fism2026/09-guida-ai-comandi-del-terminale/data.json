@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "projectTitle": "Guida ai comandi del terminale",
+    "dataSource": "data.json locale",
+    "description": "Realizzare una guida web multipagina sui comandi base del terminale, con esempi e problemi comuni.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Comando"
+      },
+      {
+        "key": "category",
+        "label": "Categoria"
+      },
+      {
+        "key": "fields.sintassi",
+        "label": "Sintassi"
+      },
+      {
+        "key": "fields.uso",
+        "label": "Uso"
+      },
+      {
+        "key": "fields.rischio",
+        "label": "Rischio"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "cd",
+      "subtitle": "Cambio cartella",
+      "category": "Navigazione",
+      "description": "Permette di entrare in una cartella o tornare indietro.",
+      "fields": {
+        "sintassi": "cd nome-cartella",
+        "uso": "Muoversi tra directory",
+        "rischio": "Basso",
+        "esempio": "cd docs"
+      }
+    },
+    {
+      "id": 2,
+      "title": "ls",
+      "subtitle": "Lista contenuti",
+      "category": "Navigazione",
+      "description": "Mostra file e cartelle nella directory corrente.",
+      "fields": {
+        "sintassi": "ls",
+        "uso": "Controllare contenuti",
+        "rischio": "Basso",
+        "esempio": "ls assets"
+      }
+    },
+    {
+      "id": 3,
+      "title": "pwd",
+      "subtitle": "Percorso corrente",
+      "category": "Navigazione",
+      "description": "Mostra la cartella in cui ci si trova.",
+      "fields": {
+        "sintassi": "pwd",
+        "uso": "Orientarsi",
+        "rischio": "Basso",
+        "esempio": "pwd"
+      }
+    },
+    {
+      "id": 4,
+      "title": "mkdir",
+      "subtitle": "Crea cartella",
+      "category": "File system",
+      "description": "Crea una nuova directory.",
+      "fields": {
+        "sintassi": "mkdir nome",
+        "uso": "Organizzare progetto",
+        "rischio": "Basso",
+        "esempio": "mkdir docs"
+      }
+    },
+    {
+      "id": 5,
+      "title": "touch",
+      "subtitle": "Crea file",
+      "category": "File system",
+      "description": "Crea un file vuoto o aggiorna la data di modifica.",
+      "fields": {
+        "sintassi": "touch file.txt",
+        "uso": "Creare file",
+        "rischio": "Basso",
+        "esempio": "touch README.md"
+      }
+    },
+    {
+      "id": 6,
+      "title": "cp",
+      "subtitle": "Copia file",
+      "category": "File system",
+      "description": "Copia file o cartelle.",
+      "fields": {
+        "sintassi": "cp origine destinazione",
+        "uso": "Duplicare risorse",
+        "rischio": "Medio",
+        "esempio": "cp a.txt b.txt"
+      }
+    },
+    {
+      "id": 7,
+      "title": "mv",
+      "subtitle": "Sposta o rinomina",
+      "category": "File system",
+      "description": "Sposta file oppure cambia nome.",
+      "fields": {
+        "sintassi": "mv vecchio nuovo",
+        "uso": "Rinominare file",
+        "rischio": "Medio",
+        "esempio": "mv prova.txt appunti.txt"
+      }
+    },
+    {
+      "id": 8,
+      "title": "rm",
+      "subtitle": "Elimina file",
+      "category": "File system",
+      "description": "Rimuove file o cartelle.",
+      "fields": {
+        "sintassi": "rm file.txt",
+        "uso": "Pulizia progetto",
+        "rischio": "Alto",
+        "esempio": "rm vecchio.txt"
+      }
+    },
+    {
+      "id": 9,
+      "title": "cat",
+      "subtitle": "Mostra contenuto",
+      "category": "Lettura",
+      "description": "Stampa a terminale il contenuto di un file.",
+      "fields": {
+        "sintassi": "cat file.txt",
+        "uso": "Leggere file brevi",
+        "rischio": "Basso",
+        "esempio": "cat README.md"
+      }
+    },
+    {
+      "id": 10,
+      "title": "clear",
+      "subtitle": "Pulisce schermo",
+      "category": "Utility",
+      "description": "Svuota la schermata del terminale.",
+      "fields": {
+        "sintassi": "clear",
+        "uso": "Ordine visivo",
+        "rischio": "Basso",
+        "esempio": "clear"
+      }
+    }
+  ]
+}

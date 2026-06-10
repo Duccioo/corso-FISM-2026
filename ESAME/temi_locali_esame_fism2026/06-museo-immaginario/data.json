@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Museo immaginario",
+    "dataSource": "data.json locale",
+    "description": "Realizzare il sito di un museo immaginario con opere, sale, periodi storici e informazioni per la visita.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Opera"
+      },
+      {
+        "key": "subtitle",
+        "label": "Autore"
+      },
+      {
+        "key": "category",
+        "label": "Sala"
+      },
+      {
+        "key": "fields.periodo",
+        "label": "Periodo"
+      },
+      {
+        "key": "fields.materiale",
+        "label": "Materiale"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "La finestra liquida",
+      "subtitle": "Iris Vanni",
+      "category": "Arte moderna",
+      "description": "Quadro astratto ispirato al movimento dell'acqua.",
+      "fields": {
+        "periodo": "1974",
+        "materiale": "Olio su tela",
+        "stato": "Esposta",
+        "durata_visita": "8 min"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Macchina per nuvole",
+      "subtitle": "G. Ferra",
+      "category": "Tecnologia storica",
+      "description": "Installazione meccanica che simula la formazione delle nuvole.",
+      "fields": {
+        "periodo": "1921",
+        "materiale": "Metallo e vetro",
+        "stato": "Esposta",
+        "durata_visita": "12 min"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Mosaico del mercato",
+      "subtitle": "Anonimo",
+      "category": "Archeologia",
+      "description": "Mosaico pavimentale con scena commerciale.",
+      "fields": {
+        "periodo": "II secolo",
+        "materiale": "Tessere in pietra",
+        "stato": "Esposta",
+        "durata_visita": "10 min"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Autoritratto senza volto",
+      "subtitle": "L. Rosi",
+      "category": "Ritratti",
+      "description": "Ritratto concettuale costruito con oggetti personali.",
+      "fields": {
+        "periodo": "2004",
+        "materiale": "Tecnica mista",
+        "stato": "In restauro",
+        "durata_visita": "6 min"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Nave delle ombre",
+      "subtitle": "Marta Neri",
+      "category": "Scultura",
+      "description": "Scultura in legno con vele metalliche.",
+      "fields": {
+        "periodo": "1988",
+        "materiale": "Legno e ferro",
+        "stato": "Esposta",
+        "durata_visita": "9 min"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Atlante minimo",
+      "subtitle": "D. Leone",
+      "category": "Cartografia",
+      "description": "Raccolta di mappe immaginarie disegnate a mano.",
+      "fields": {
+        "periodo": "1956",
+        "materiale": "Carta e inchiostro",
+        "stato": "Esposta",
+        "durata_visita": "7 min"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Coro di pietra",
+      "subtitle": "Scuola locale",
+      "category": "Medioevo",
+      "description": "Capitelli decorati provenienti da un antico chiostro.",
+      "fields": {
+        "periodo": "XIII secolo",
+        "materiale": "Pietra serena",
+        "stato": "Esposta",
+        "durata_visita": "11 min"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Luce intermittente",
+      "subtitle": "N. Sala",
+      "category": "Arte contemporanea",
+      "description": "Installazione luminosa interattiva.",
+      "fields": {
+        "periodo": "2021",
+        "materiale": "LED e sensori",
+        "stato": "Esposta",
+        "durata_visita": "5 min"
+      }
+    }
+  ]
+}

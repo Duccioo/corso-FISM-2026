@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Mini corso HTML e CSS",
+    "dataSource": "data.json locale",
+    "description": "Realizzare un mini sito didattico che spiega concetti base di HTML, CSS e Bootstrap a principianti.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Argomento"
+      },
+      {
+        "key": "category",
+        "label": "Modulo"
+      },
+      {
+        "key": "fields.livello",
+        "label": "Livello"
+      },
+      {
+        "key": "fields.esempio",
+        "label": "Esempio"
+      },
+      {
+        "key": "fields.durata",
+        "label": "Durata"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Struttura HTML",
+      "subtitle": "Documento base",
+      "category": "HTML",
+      "description": "Spiega doctype, head, body e collegamento dei file.",
+      "fields": {
+        "livello": "Base",
+        "esempio": "index.html",
+        "durata": "20 min",
+        "pratica": "Creare pagina"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Titoli e paragrafi",
+      "subtitle": "Testo",
+      "category": "HTML",
+      "description": "Uso corretto di h1, h2, p e struttura dei contenuti.",
+      "fields": {
+        "livello": "Base",
+        "esempio": "h1, p",
+        "durata": "15 min",
+        "pratica": "Scrivere sezione"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Liste e tabelle",
+      "subtitle": "Contenuti",
+      "category": "HTML",
+      "description": "Organizzare informazioni con liste e tabelle.",
+      "fields": {
+        "livello": "Base",
+        "esempio": "ul, table",
+        "durata": "25 min",
+        "pratica": "Tabella dati"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Selettori CSS",
+      "subtitle": "Stile",
+      "category": "CSS",
+      "description": "Applicare regole CSS a tag, classi e ID.",
+      "fields": {
+        "livello": "Base",
+        "esempio": ".card",
+        "durata": "25 min",
+        "pratica": "Stilizzare card"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Box model",
+      "subtitle": "Layout",
+      "category": "CSS",
+      "description": "Capire margin, padding, border e width.",
+      "fields": {
+        "livello": "Intermedio",
+        "esempio": "padding: 16px",
+        "durata": "30 min",
+        "pratica": "Spaziature"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Flexbox",
+      "subtitle": "Layout",
+      "category": "CSS",
+      "description": "Disporre elementi in riga o colonna.",
+      "fields": {
+        "livello": "Intermedio",
+        "esempio": "display:flex",
+        "durata": "35 min",
+        "pratica": "Navbar"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Bootstrap Grid",
+      "subtitle": "Framework",
+      "category": "Bootstrap",
+      "description": "Usare container, row e col per layout responsive.",
+      "fields": {
+        "livello": "Intermedio",
+        "esempio": "col-md-4",
+        "durata": "30 min",
+        "pratica": "Griglia card"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Card Bootstrap",
+      "subtitle": "Componenti",
+      "category": "Bootstrap",
+      "description": "Creare schede ordinate con titolo, testo e bottone.",
+      "fields": {
+        "livello": "Base",
+        "esempio": "card",
+        "durata": "20 min",
+        "pratica": "Catalogo"
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Dashboard ambientale statica",
+    "dataSource": "data.json locale",
+    "description": "Realizzare una piccola dashboard ambientale con dati locali simulati su città, temperatura e qualità dell'aria.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Località"
+      },
+      {
+        "key": "category",
+        "label": "Area"
+      },
+      {
+        "key": "fields.temperatura",
+        "label": "Temperatura"
+      },
+      {
+        "key": "fields.qualita_aria",
+        "label": "Qualità aria"
+      },
+      {
+        "key": "fields.umidita",
+        "label": "Umidità"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Centro storico",
+      "subtitle": "Scheda informativa",
+      "category": "Urbana",
+      "description": "Rilevazione simulata in zona centrale trafficata.",
+      "fields": {
+        "temperatura": "28°C",
+        "qualita_aria": "Media",
+        "umidita": "52%",
+        "rumore": "Alto"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Parco Nord",
+      "subtitle": "Scheda informativa",
+      "category": "Verde",
+      "description": "Rilevazione simulata in area verde cittadina.",
+      "fields": {
+        "temperatura": "25°C",
+        "qualita_aria": "Buona",
+        "umidita": "61%",
+        "rumore": "Basso"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Zona industriale",
+      "subtitle": "Scheda informativa",
+      "category": "Industriale",
+      "description": "Rilevazione simulata vicino ad attività produttive.",
+      "fields": {
+        "temperatura": "30°C",
+        "qualita_aria": "Bassa",
+        "umidita": "47%",
+        "rumore": "Medio"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Quartiere residenziale",
+      "subtitle": "Scheda informativa",
+      "category": "Urbana",
+      "description": "Rilevazione simulata in zona abitativa.",
+      "fields": {
+        "temperatura": "27°C",
+        "qualita_aria": "Buona",
+        "umidita": "55%",
+        "rumore": "Basso"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Stazione",
+      "subtitle": "Scheda informativa",
+      "category": "Trasporti",
+      "description": "Rilevazione simulata nei pressi della stazione.",
+      "fields": {
+        "temperatura": "29°C",
+        "qualita_aria": "Media",
+        "umidita": "50%",
+        "rumore": "Alto"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Collina est",
+      "subtitle": "Scheda informativa",
+      "category": "Verde",
+      "description": "Rilevazione simulata in zona panoramica.",
+      "fields": {
+        "temperatura": "24°C",
+        "qualita_aria": "Ottima",
+        "umidita": "58%",
+        "rumore": "Basso"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Scuola centrale",
+      "subtitle": "Scheda informativa",
+      "category": "Servizi",
+      "description": "Rilevazione simulata vicino a edificio scolastico.",
+      "fields": {
+        "temperatura": "26°C",
+        "qualita_aria": "Buona",
+        "umidita": "57%",
+        "rumore": "Medio"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Area mercato",
+      "subtitle": "Scheda informativa",
+      "category": "Urbana",
+      "description": "Rilevazione simulata durante orario di mercato.",
+      "fields": {
+        "temperatura": "28°C",
+        "qualita_aria": "Media",
+        "umidita": "53%",
+        "rumore": "Alto"
+      }
+    }
+  ]
+}

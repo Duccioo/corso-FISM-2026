@@ -1,0 +1,18 @@
+{
+  "source": "fallback locale",
+  "note": "Questi dati vengono usati solo se la API remota non risponde.",
+  "items": [
+    {
+      "title": "Zaino tecnico",
+      "body": "Zaino resistente. Prezzo: 49 €. Valutazione: 4.5.",
+      "meta": "accessori",
+      "image": "https://dummyjson.com/image/300x200?text=Zaino"
+    },
+    {
+      "title": "Cuffie wireless",
+      "body": "Cuffie Bluetooth. Prezzo: 79 €. Valutazione: 4.2.",
+      "meta": "elettronica",
+      "image": "https://dummyjson.com/image/300x200?text=Cuffie"
+    }
+  ]
+}

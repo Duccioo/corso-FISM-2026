@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Catalogo film consigliati",
+    "dataSource": "data.json locale",
+    "description": "Realizzare un sito per presentare una selezione di film consigliati, organizzati per genere e valutazione.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Film"
+      },
+      {
+        "key": "subtitle",
+        "label": "Regia"
+      },
+      {
+        "key": "category",
+        "label": "Genere"
+      },
+      {
+        "key": "fields.durata",
+        "label": "Durata"
+      },
+      {
+        "key": "fields.valutazione",
+        "label": "Valutazione"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "L'ultima orbita",
+      "subtitle": "N. Moretti",
+      "category": "Sci-fi",
+      "description": "Equipaggio spaziale affronta una missione imprevista vicino a un pianeta sconosciuto.",
+      "fields": {
+        "anno": "2022",
+        "durata": "118 min",
+        "valutazione": "8/10",
+        "adatto": "13+"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Cena alle otto",
+      "subtitle": "S. Bellini",
+      "category": "Commedia",
+      "description": "Una cena tra amici diventa una serie di equivoci sempre più assurdi.",
+      "fields": {
+        "anno": "2021",
+        "durata": "96 min",
+        "valutazione": "7/10",
+        "adatto": "Tutti"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Il ponte sommerso",
+      "subtitle": "R. Costa",
+      "category": "Drammatico",
+      "description": "Due fratelli tornano nel paese d'origine dopo molti anni.",
+      "fields": {
+        "anno": "2020",
+        "durata": "105 min",
+        "valutazione": "8.5/10",
+        "adatto": "13+"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Pixel selvaggi",
+      "subtitle": "A. Lupi",
+      "category": "Animazione",
+      "description": "Un gruppo di personaggi digitali cerca di salvare il proprio videogioco.",
+      "fields": {
+        "anno": "2023",
+        "durata": "88 min",
+        "valutazione": "7.5/10",
+        "adatto": "Tutti"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Codice rosso",
+      "subtitle": "M. Serra",
+      "category": "Thriller",
+      "description": "Una ricercatrice scopre una falla in un sistema di sicurezza.",
+      "fields": {
+        "anno": "2019",
+        "durata": "111 min",
+        "valutazione": "8/10",
+        "adatto": "16+"
+      }
+    },
+    {
+      "id": 6,
+      "title": "L'isola dei suoni",
+      "subtitle": "G. Palmieri",
+      "category": "Musicale",
+      "description": "Viaggio musicale in una comunità che comunica attraverso melodie.",
+      "fields": {
+        "anno": "2018",
+        "durata": "101 min",
+        "valutazione": "6.5/10",
+        "adatto": "Tutti"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Fuori tempo",
+      "subtitle": "E. Romano",
+      "category": "Fantascienza",
+      "description": "Una studentessa scopre un orologio capace di ripetere la stessa giornata.",
+      "fields": {
+        "anno": "2024",
+        "durata": "122 min",
+        "valutazione": "8/10",
+        "adatto": "13+"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Case di carta",
+      "subtitle": "L. Greco",
+      "category": "Documentario",
+      "description": "Documentario su architettura temporanea e abitazioni sostenibili.",
+      "fields": {
+        "anno": "2022",
+        "durata": "74 min",
+        "valutazione": "7/10",
+        "adatto": "Tutti"
+      }
+    }
+  ]
+}

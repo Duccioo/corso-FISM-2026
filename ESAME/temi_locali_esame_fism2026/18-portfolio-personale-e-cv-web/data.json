@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Portfolio personale e CV web",
+    "dataSource": "data.json locale",
+    "description": "Realizzare un portfolio personale multipagina con progetti, competenze e informazioni professionali fittizie o reali.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Elemento"
+      },
+      {
+        "key": "category",
+        "label": "Tipo"
+      },
+      {
+        "key": "fields.tecnologie",
+        "label": "Tecnologie"
+      },
+      {
+        "key": "fields.livello",
+        "label": "Livello"
+      },
+      {
+        "key": "fields.anno",
+        "label": "Anno"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Sito portfolio",
+      "subtitle": "Progetto web",
+      "category": "Progetti",
+      "description": "Homepage personale con sezioni, card e contatti.",
+      "fields": {
+        "tecnologie": "HTML, CSS, Bootstrap",
+        "livello": "Base",
+        "anno": "2026",
+        "stato": "Completo"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Mini catalogo libri",
+      "subtitle": "Progetto frontend",
+      "category": "Progetti",
+      "description": "Catalogo dati locali con card e tabella.",
+      "fields": {
+        "tecnologie": "HTML, JS, JSON",
+        "livello": "Base",
+        "anno": "2026",
+        "stato": "Demo"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Git e GitHub",
+      "subtitle": "Competenza",
+      "category": "Competenze",
+      "description": "Uso base di repository, commit, push e README.",
+      "fields": {
+        "tecnologie": "Git, GitHub",
+        "livello": "Intermedio",
+        "anno": "2026",
+        "stato": "In uso"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Markdown",
+      "subtitle": "Competenza",
+      "category": "Competenze",
+      "description": "Scrittura di README, FAQ e guide di installazione.",
+      "fields": {
+        "tecnologie": "Markdown",
+        "livello": "Intermedio",
+        "anno": "2026",
+        "stato": "In uso"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Landing page",
+      "subtitle": "Progetto web",
+      "category": "Progetti",
+      "description": "Pagina promozionale con layout responsive.",
+      "fields": {
+        "tecnologie": "Bootstrap",
+        "livello": "Base",
+        "anno": "2025",
+        "stato": "Completo"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Documentazione API",
+      "subtitle": "Competenza",
+      "category": "Competenze",
+      "description": "Descrizione di endpoint, campi e dati usati.",
+      "fields": {
+        "tecnologie": "Markdown, JSON",
+        "livello": "Base",
+        "anno": "2026",
+        "stato": "In apprendimento"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Dashboard statica",
+      "subtitle": "Progetto web",
+      "category": "Progetti",
+      "description": "Pagina dati con tabella e card informative.",
+      "fields": {
+        "tecnologie": "HTML, Bootstrap",
+        "livello": "Base",
+        "anno": "2026",
+        "stato": "Demo"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Responsive design",
+      "subtitle": "Competenza",
+      "category": "Competenze",
+      "description": "Uso di griglie e layout adattabili su mobile.",
+      "fields": {
+        "tecnologie": "CSS, Bootstrap",
+        "livello": "Base",
+        "anno": "2026",
+        "stato": "In uso"
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Festival musicale",
+    "dataSource": "data.json locale",
+    "description": "Realizzare il sito di un festival musicale con lineup, palchi, orari e generi.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Artista"
+      },
+      {
+        "key": "category",
+        "label": "Genere"
+      },
+      {
+        "key": "fields.palco",
+        "label": "Palco"
+      },
+      {
+        "key": "fields.orario",
+        "label": "Orario"
+      },
+      {
+        "key": "fields.giorno",
+        "label": "Giorno"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Luna Park Trio",
+      "subtitle": "Scheda informativa",
+      "category": "Jazz",
+      "description": "Jazz moderno con influenze elettroniche leggere.",
+      "fields": {
+        "palco": "Main Stage",
+        "orario": "19:00",
+        "giorno": "Venerdì",
+        "durata": "60 min"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Ada Noise",
+      "subtitle": "Scheda informativa",
+      "category": "Elettronica",
+      "description": "Live set elettronico con synth e visual.",
+      "fields": {
+        "palco": "Night Stage",
+        "orario": "23:00",
+        "giorno": "Venerdì",
+        "durata": "75 min"
+      }
+    },
+    {
+      "id": 3,
+      "title": "I Binari",
+      "subtitle": "Scheda informativa",
+      "category": "Rock",
+      "description": "Band rock con brani energici e testi narrativi.",
+      "fields": {
+        "palco": "Main Stage",
+        "orario": "21:00",
+        "giorno": "Sabato",
+        "durata": "70 min"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Marta Riva",
+      "subtitle": "Scheda informativa",
+      "category": "Pop",
+      "description": "Concerto pop acustico con arrangiamenti essenziali.",
+      "fields": {
+        "palco": "Garden Stage",
+        "orario": "18:00",
+        "giorno": "Sabato",
+        "durata": "50 min"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Kernel Beat",
+      "subtitle": "Scheda informativa",
+      "category": "Hip hop",
+      "description": "Show hip hop con beat minimali e freestyle.",
+      "fields": {
+        "palco": "Urban Stage",
+        "orario": "22:00",
+        "giorno": "Sabato",
+        "durata": "60 min"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Echo Room",
+      "subtitle": "Scheda informativa",
+      "category": "Indie",
+      "description": "Set indie atmosferico con chitarre riverberate.",
+      "fields": {
+        "palco": "Garden Stage",
+        "orario": "17:30",
+        "giorno": "Domenica",
+        "durata": "55 min"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Terra Viva",
+      "subtitle": "Scheda informativa",
+      "category": "Folk",
+      "description": "Gruppo folk con strumenti acustici e cori.",
+      "fields": {
+        "palco": "Main Stage",
+        "orario": "20:00",
+        "giorno": "Domenica",
+        "durata": "65 min"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Arcade Sound",
+      "subtitle": "Scheda informativa",
+      "category": "Dance",
+      "description": "Set dance ispirato ai videogiochi retrò.",
+      "fields": {
+        "palco": "Night Stage",
+        "orario": "00:30",
+        "giorno": "Domenica",
+        "durata": "80 min"
+      }
+    }
+  ]
+}

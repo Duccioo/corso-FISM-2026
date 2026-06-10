@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Catalogo musicale",
+    "dataSource": "data.json locale",
+    "description": "Realizzare un catalogo musicale con album, artisti, generi e brani consigliati.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Album"
+      },
+      {
+        "key": "subtitle",
+        "label": "Artista"
+      },
+      {
+        "key": "category",
+        "label": "Genere"
+      },
+      {
+        "key": "fields.anno",
+        "label": "Anno"
+      },
+      {
+        "key": "fields.brano",
+        "label": "Brano consigliato"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Notturno elettrico",
+      "subtitle": "Luna Park Trio",
+      "category": "Jazz",
+      "description": "Album notturno con atmosfere morbide e improvvisazioni leggere.",
+      "fields": {
+        "anno": "2022",
+        "brano": "Lampioni blu",
+        "durata": "42 min",
+        "voto": "8/10"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Circuiti emotivi",
+      "subtitle": "Ada Noise",
+      "category": "Elettronica",
+      "description": "Tracce sintetiche con melodie malinconiche.",
+      "fields": {
+        "anno": "2024",
+        "brano": "Segnale debole",
+        "durata": "38 min",
+        "voto": "7.5/10"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Strade parallele",
+      "subtitle": "I Binari",
+      "category": "Rock",
+      "description": "Album rock con testi narrativi e chitarre pulite.",
+      "fields": {
+        "anno": "2021",
+        "brano": "Ultimo treno",
+        "durata": "45 min",
+        "voto": "8/10"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Sole in tasca",
+      "subtitle": "Marta Riva",
+      "category": "Pop",
+      "description": "Raccolta pop leggera e radiofonica.",
+      "fields": {
+        "anno": "2020",
+        "brano": "Mattina chiara",
+        "durata": "36 min",
+        "voto": "7/10"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Bassa frequenza",
+      "subtitle": "Kernel Beat",
+      "category": "Hip hop",
+      "description": "Beat minimali e testi urbani.",
+      "fields": {
+        "anno": "2023",
+        "brano": "Sotto traccia",
+        "durata": "41 min",
+        "voto": "8/10"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Camere d'eco",
+      "subtitle": "Echo Room",
+      "category": "Indie",
+      "description": "Album indie con suoni riverberati e testi intimi.",
+      "fields": {
+        "anno": "2019",
+        "brano": "Pareti sottili",
+        "durata": "39 min",
+        "voto": "7.5/10"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Radici nuove",
+      "subtitle": "Terra Viva",
+      "category": "Folk",
+      "description": "Brani acustici ispirati a storie locali.",
+      "fields": {
+        "anno": "2022",
+        "brano": "Vento di collina",
+        "durata": "44 min",
+        "voto": "8.5/10"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Pixel dance",
+      "subtitle": "Arcade Sound",
+      "category": "Dance",
+      "description": "Tracce energiche ispirate ai videogiochi anni 90.",
+      "fields": {
+        "anno": "2025",
+        "brano": "Insert coin",
+        "durata": "33 min",
+        "voto": "7/10"
+      }
+    }
+  ]
+}

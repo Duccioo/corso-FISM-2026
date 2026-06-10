@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Ricettario locale",
+    "dataSource": "data.json locale",
+    "description": "Realizzare un ricettario multipagina con ricette, ingredienti, tempi e difficoltà.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Ricetta"
+      },
+      {
+        "key": "category",
+        "label": "Categoria"
+      },
+      {
+        "key": "fields.tempo",
+        "label": "Tempo"
+      },
+      {
+        "key": "fields.difficolta",
+        "label": "Difficoltà"
+      },
+      {
+        "key": "fields.porzioni",
+        "label": "Porzioni"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Pasta al pomodoro fresco",
+      "subtitle": "Classico semplice",
+      "category": "Primi",
+      "description": "Ricetta veloce con pomodori maturi, basilico e olio.",
+      "fields": {
+        "tempo": "25 min",
+        "difficolta": "Facile",
+        "porzioni": "2",
+        "ingredienti": "Pasta, pomodoro, basilico"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Zuppa di legumi",
+      "subtitle": "Piatto caldo",
+      "category": "Primi",
+      "description": "Zuppa nutriente con legumi misti e verdure.",
+      "fields": {
+        "tempo": "60 min",
+        "difficolta": "Media",
+        "porzioni": "4",
+        "ingredienti": "Legumi, carote, sedano"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Frittata alle erbe",
+      "subtitle": "Secondo veloce",
+      "category": "Secondi",
+      "description": "Frittata profumata con erbe aromatiche.",
+      "fields": {
+        "tempo": "20 min",
+        "difficolta": "Facile",
+        "porzioni": "3",
+        "ingredienti": "Uova, erbe, formaggio"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Verdure al forno",
+      "subtitle": "Contorno",
+      "category": "Contorni",
+      "description": "Verdure miste tagliate e cotte al forno.",
+      "fields": {
+        "tempo": "45 min",
+        "difficolta": "Facile",
+        "porzioni": "4",
+        "ingredienti": "Zucchine, patate, peperoni"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Crostata alla marmellata",
+      "subtitle": "Dolce tradizionale",
+      "category": "Dolci",
+      "description": "Crostata semplice con pasta frolla e marmellata.",
+      "fields": {
+        "tempo": "70 min",
+        "difficolta": "Media",
+        "porzioni": "6",
+        "ingredienti": "Farina, burro, marmellata"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Insalata estiva",
+      "subtitle": "Piatto fresco",
+      "category": "Contorni",
+      "description": "Insalata ricca con verdure, semi e formaggio.",
+      "fields": {
+        "tempo": "15 min",
+        "difficolta": "Facile",
+        "porzioni": "2",
+        "ingredienti": "Insalata, semi, feta"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Risotto ai funghi",
+      "subtitle": "Primo cremoso",
+      "category": "Primi",
+      "description": "Risotto con funghi e brodo vegetale.",
+      "fields": {
+        "tempo": "40 min",
+        "difficolta": "Media",
+        "porzioni": "3",
+        "ingredienti": "Riso, funghi, brodo"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Biscotti al cacao",
+      "subtitle": "Dolce secco",
+      "category": "Dolci",
+      "description": "Biscotti semplici per colazione o merenda.",
+      "fields": {
+        "tempo": "35 min",
+        "difficolta": "Facile",
+        "porzioni": "20 pezzi",
+        "ingredienti": "Farina, cacao, zucchero"
+      }
+    }
+  ]
+}

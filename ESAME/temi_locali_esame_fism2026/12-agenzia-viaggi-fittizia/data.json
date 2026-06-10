@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "projectTitle": "Agenzia viaggi fittizia",
+    "dataSource": "data.json locale",
+    "description": "Realizzare un sito per una piccola agenzia viaggi con destinazioni, pacchetti e consigli pratici.",
+    "columns": [
+      {
+        "key": "title",
+        "label": "Destinazione"
+      },
+      {
+        "key": "category",
+        "label": "Tipo viaggio"
+      },
+      {
+        "key": "fields.durata",
+        "label": "Durata"
+      },
+      {
+        "key": "fields.prezzo",
+        "label": "Prezzo"
+      },
+      {
+        "key": "fields.periodo",
+        "label": "Periodo"
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 1,
+      "title": "Weekend a Lisbona",
+      "subtitle": "City break",
+      "category": "Città",
+      "description": "Pacchetto breve tra quartieri storici, tram e panorami sull'oceano.",
+      "fields": {
+        "durata": "3 giorni",
+        "prezzo": "320 €",
+        "periodo": "Primavera",
+        "difficolta": "Facile"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Trekking Dolomiti",
+      "subtitle": "Natura",
+      "category": "Montagna",
+      "description": "Percorso guidato tra rifugi, sentieri e viste panoramiche.",
+      "fields": {
+        "durata": "5 giorni",
+        "prezzo": "590 €",
+        "periodo": "Estate",
+        "difficolta": "Media"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Tour Sicilia orientale",
+      "subtitle": "Cultura",
+      "category": "Mare e città",
+      "description": "Itinerario tra città barocche, mare e cucina locale.",
+      "fields": {
+        "durata": "7 giorni",
+        "prezzo": "780 €",
+        "periodo": "Estate",
+        "difficolta": "Facile"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Capitali del Nord",
+      "subtitle": "Cultura",
+      "category": "Città",
+      "description": "Viaggio tra musei, architettura e quartieri moderni.",
+      "fields": {
+        "durata": "6 giorni",
+        "prezzo": "850 €",
+        "periodo": "Autunno",
+        "difficolta": "Facile"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Safari fotografico",
+      "subtitle": "Avventura",
+      "category": "Natura",
+      "description": "Esperienza fittizia dedicata alla fotografia naturalistica.",
+      "fields": {
+        "durata": "8 giorni",
+        "prezzo": "1200 €",
+        "periodo": "Inverno",
+        "difficolta": "Media"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Relax alle terme",
+      "subtitle": "Benessere",
+      "category": "Relax",
+      "description": "Soggiorno breve tra spa, passeggiate e cucina locale.",
+      "fields": {
+        "durata": "2 giorni",
+        "prezzo": "240 €",
+        "periodo": "Tutto l'anno",
+        "difficolta": "Facile"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Cammino costiero",
+      "subtitle": "Natura",
+      "category": "Mare",
+      "description": "Itinerario a piedi lungo tratti panoramici sul mare.",
+      "fields": {
+        "durata": "4 giorni",
+        "prezzo": "430 €",
+        "periodo": "Primavera",
+        "difficolta": "Media"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Tokyo essenziale",
+      "subtitle": "Cultura",
+      "category": "Città",
+      "description": "Introduzione a quartieri, trasporti e cultura urbana giapponese.",
+      "fields": {
+        "durata": "7 giorni",
+        "prezzo": "1350 €",
+        "periodo": "Primavera",
+        "difficolta": "Media"
+      }
+    }
+  ]
+}

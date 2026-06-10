@@ -11,7 +11,7 @@ slide e codici per lezioni FISM 2026.
 
 la cartella **Lezioni** contiene le varie lezioni effettuate:
 - **Terminale** (07/05/2026)
-- **Git_e_GitHub** (14/07/2026)
+- **Git_e_GitHub** (14/05/2026)
 - **Markdown_StrutturaProgetto** (25/05/2026)
 - **HTML_CSS** (28/05/2026)
 - **CSS_avanzato** (03/06/2026)

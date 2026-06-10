@@ -1,0 +1,16 @@
+{
+  "source": "fallback locale",
+  "note": "Questi dati vengono usati solo se la API remota non risponde.",
+  "items": [
+    {
+      "title": "Parigi",
+      "body": "Weekend culturale. Min 14°C, max 21°C, pioggia 30%.",
+      "meta": "fallback"
+    },
+    {
+      "title": "Tokyo",
+      "body": "Viaggio lungo. Min 20°C, max 27°C, pioggia 40%.",
+      "meta": "fallback"
+    }
+  ]
+}

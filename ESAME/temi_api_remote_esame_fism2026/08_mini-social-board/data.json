@@ -1,0 +1,16 @@
+{
+  "source": "fallback locale",
+  "note": "Questi dati vengono usati solo se la API remota non risponde.",
+  "items": [
+    {
+      "title": "Commento locale",
+      "body": "Questo commento appare quando la API non risponde.",
+      "meta": "utente@example.com"
+    },
+    {
+      "title": "Feedback demo",
+      "body": "Il sito deve gestire anche il caso di errore.",
+      "meta": "demo@example.com"
+    }
+  ]
+}
