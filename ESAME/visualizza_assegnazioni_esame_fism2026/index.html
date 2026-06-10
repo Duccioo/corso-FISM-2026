@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assegnazioni esame FISM 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <header class="topbar">
+            <div>
+                <p class="eyebrow">Esame FISM 2026</p>
+                <h1>Assegnazioni</h1>
+                <p class="submit-note">INVIARE IL LINK ALLA REPO DI GITHUB A meconcelliduccio@gmail.com</p>
+            </div>
+            <dl class="stats" aria-label="Statistiche assegnazioni">
+                <div>
+                    <dt>Totale</dt>
+                    <dd id="totalCount">0</dd>
+                </div>
+                <div>
+                    <dt>Locale</dt>
+                    <dd id="localCount">0</dd>
+                </div>
+                <div>
+                    <dt>API</dt>
+                    <dd id="apiCount">0</dd>
+                </div>
+                <div>
+                    <dt>Consegnati</dt>
+                    <dd id="deliveredCount">0</dd>
+                </div>
+            </dl>
+        </header>
+
+        <section class="toolbar" aria-label="Filtri assegnazioni">
+            <label class="search">
+                <span>Cerca</span>
+                <input id="searchInput" type="search" placeholder="Studente o compito" autocomplete="off">
+            </label>
+            <fieldset class="segments">
+                <legend>Tipo</legend>
+                <button class="segment active" type="button" data-filter="all">Tutti</button>
+                <button class="segment" type="button" data-filter="Locale">Locale</button>
+                <button class="segment" type="button" data-filter="API remote">API</button>
+            </fieldset>
+            <button id="copyButton" class="copy" type="button">Copia elenco</button>
+        </section>
+
+        <section class="table-shell" aria-label="Elenco assegnazioni">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="number">#</th>
+                        <th>Studente</th>
+                        <th>Compito</th>
+                        <th>Tipo</th>
+                        <th>Ora</th>
+                        <th class="delivered-col">Consegnato</th>
+                    </tr>
+                </thead>
+                <tbody id="assignmentsBody"></tbody>
+            </table>
+            <p id="emptyState" class="empty" hidden>Nessuna assegnazione trovata.</p>
+        </section>
+
+        <footer class="footer">
+            <span id="sourceInfo"></span>
+            <span id="visibleInfo"></span>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

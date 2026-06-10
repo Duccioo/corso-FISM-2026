@@ -1,0 +1,391 @@
+:root {
+    color-scheme: light;
+    --bg: #eef1f5;
+    --surface: #ffffff;
+    --surface-2: #f7f8fb;
+    --text: #17202e;
+    --muted: #647184;
+    --border: #d9dee7;
+    --accent: #0f766e;
+    --accent-soft: #d9f2ee;
+    --api: #6d4aff;
+    --api-soft: #ebe7ff;
+    --local: #0f766e;
+    --local-soft: #d9f2ee;
+    --warn: #9a5b00;
+    --warn-bg: #fff4d5;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    color: var(--text);
+    background: var(--bg);
+    overflow: hidden;
+}
+
+button,
+input {
+    font: inherit;
+}
+
+.app {
+    width: min(1000px, calc(100% - 12px));
+    margin: 0 auto;
+    padding: 6px 0;
+}
+
+.topbar,
+.toolbar,
+.table-shell,
+.footer {
+    border: 1px solid var(--border);
+    background: var(--surface);
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    min-height: 48px;
+    padding: 7px 10px;
+    border-radius: 7px 7px 0 0;
+}
+
+.eyebrow,
+h1,
+dl,
+dd,
+p {
+    margin: 0;
+}
+
+.eyebrow {
+    color: var(--accent);
+    font-size: 0.62rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 1.28rem;
+    line-height: 1;
+}
+
+.submit-note {
+    margin-top: 3px;
+    color: #9b1c1c;
+    font-size: 0.76rem;
+    font-weight: 900;
+    letter-spacing: 0;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 62px);
+    gap: 5px;
+}
+
+.stats div {
+    min-height: 35px;
+    padding: 4px 6px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--surface-2);
+}
+
+.stats dt {
+    color: var(--muted);
+    font-size: 0.62rem;
+    font-weight: 700;
+}
+
+.stats dd {
+    margin-top: -1px;
+    font-size: 1rem;
+    font-weight: 850;
+}
+
+.toolbar {
+    display: grid;
+    grid-template-columns: minmax(220px, 1fr) auto auto;
+    gap: 7px;
+    align-items: center;
+    padding: 6px 10px;
+    border-top: 0;
+}
+
+.search span,
+.segments legend {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 0 8px;
+    color: var(--text);
+    background: var(--surface-2);
+    outline: none;
+}
+
+input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.15);
+}
+
+.segments {
+    display: grid;
+    grid-template-columns: repeat(3, 64px);
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.segment,
+.copy {
+    height: 30px;
+    border: 1px solid var(--border);
+    color: var(--text);
+    background: var(--surface-2);
+    cursor: pointer;
+    font-size: 0.82rem;
+}
+
+.segment {
+    border-right: 0;
+}
+
+.segment:first-of-type {
+    border-radius: 6px 0 0 6px;
+}
+
+.segment:last-of-type {
+    border-right: 1px solid var(--border);
+    border-radius: 0 6px 6px 0;
+}
+
+.segment.active {
+    border-color: var(--accent);
+    color: #064e48;
+    background: var(--accent-soft);
+    font-weight: 850;
+}
+
+.copy {
+    min-width: 96px;
+    border-radius: 5px;
+    color: #ffffff;
+    background: var(--accent);
+    font-weight: 800;
+}
+
+.table-shell {
+    position: relative;
+    max-height: calc(100vh - 104px);
+    min-height: 220px;
+    overflow: auto;
+    border-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: #e7ebf1;
+}
+
+th,
+td {
+    padding: 4px 8px;
+    border-bottom: 1px solid var(--border);
+    text-align: left;
+    vertical-align: middle;
+    line-height: 1.18;
+}
+
+th {
+    color: #3f4a5c;
+    font-size: 0.66rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+td {
+    font-size: 0.82rem;
+}
+
+tbody tr:nth-child(even) {
+    background: #fafbfc;
+}
+
+tbody tr:hover {
+    background: #eef8f6;
+}
+
+.number {
+    width: 38px;
+    text-align: right;
+}
+
+.student {
+    min-width: 175px;
+    font-weight: 800;
+}
+
+.task {
+    min-width: 240px;
+}
+
+.task-id {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 28px;
+    height: 18px;
+    margin-right: 6px;
+    border-radius: 4px;
+    color: #394456;
+    background: #e9edf3;
+    font-size: 0.68rem;
+    font-weight: 850;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    min-width: 74px;
+    height: 20px;
+    padding: 0 7px;
+    border-radius: 999px;
+    font-size: 0.68rem;
+    font-weight: 850;
+}
+
+.badge.local {
+    color: #07554e;
+    background: var(--local-soft);
+}
+
+.badge.api {
+    color: #46309c;
+    background: var(--api-soft);
+}
+
+.time {
+    width: 76px;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+}
+
+.delivered-col {
+    width: 92px;
+    text-align: center;
+}
+
+.delivery-cell {
+    text-align: center;
+}
+
+.delivery-check {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    accent-color: var(--accent);
+    cursor: pointer;
+}
+
+tr.delivered {
+    background: #eef8f6;
+}
+
+tr.delivered .student,
+tr.delivered .task {
+    color: #516070;
+}
+
+.empty {
+    padding: 34px 10px;
+    color: var(--muted);
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 5px 10px;
+    border-top: 0;
+    border-radius: 0 0 7px 7px;
+    color: var(--muted);
+    font-size: 0.7rem;
+}
+
+@media (max-width: 760px) {
+    body {
+        overflow: auto;
+    }
+
+    .app {
+        width: min(100% - 12px, 620px);
+        padding: 6px 0;
+    }
+
+    .topbar {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .stats {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .toolbar {
+        grid-template-columns: 1fr;
+    }
+
+    .segments {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .copy {
+        width: 100%;
+    }
+
+    .table-shell {
+        max-height: calc(100vh - 292px);
+    }
+
+    th,
+    td {
+        padding: 7px 8px;
+    }
+
+    .time {
+        display: none;
+    }
+
+    .delivered-col {
+        width: 74px;
+    }
+}
