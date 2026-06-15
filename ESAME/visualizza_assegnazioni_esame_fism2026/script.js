@@ -1,6 +1,6 @@
 const embeddedData = {
     generatedAt: "2026-06-10T07:19:13.603Z",
-    totalAssignments: 16,
+    totalAssignments: 17,
     assignments: [
         {
             student: "Bitossi Jacopo",
@@ -102,7 +102,7 @@ const embeddedData = {
         },
         {
             student: "Contolini Davide",
-            taskId: 26,
+            taskId: 36,
             taskTitle: "Terremoti Recenti",
             taskType: "API remote",
             assignedAt: "2026-06-10T07:18:48.724Z"
@@ -113,6 +113,13 @@ const embeddedData = {
             taskTitle: "Mini corso HTML e CSS",
             taskType: "Locale",
             assignedAt: "2026-06-10T07:18:59.141Z"
+        },
+        {
+            student: "Cuminetti Lorenzo",
+            taskId: 30,
+            taskTitle: "Ricettario globale",
+            taskType: "API remote",
+            assignedAt: "2026-06-10T07:19:05.000Z"
         }
     ]
 };
@@ -148,7 +155,7 @@ async function init() {
 
 async function loadAssignmentsData() {
     try {
-        const response = await fetch("../../assegnazioni-esame-fism2026.json", { cache: "no-store" });
+        const response = await fetch("../assegnazioni-esame-fism2026.json", { cache: "no-store" });
         if (!response.ok) {
             throw new Error("JSON non disponibile");
         }
